@@ -1,0 +1,155 @@
+/* Utility classes that enable a cool transition */
+
+/* Position 1 */
+.img1-first {
+    top: -245px;
+    left: 20px;
+    z-index: 5;
+    position: absolute;
+    transition: filter 0.45s, opacity 0.45s, top 0.45s, left 0.45s;
+}
+
+.img2-second {
+    position: absolute;
+    top: 30px;
+    left: 257px;
+    z-index: 4;
+    opacity: 0.3;
+    filter: grayscale(1);
+    /* opacity: 0.3; */
+    transition: filter 0.45s, opacity 0.45s, top 0.45s, left 0.45s;
+}
+
+.img2-second::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1); /* White with 50% opacity */
+    z-index: 3; /* Place the overlay behind the content */
+  }
+
+.img3-third {
+    position: absolute;
+    top: -298px;
+    left: 237px;
+    z-index: 2;
+    filter: grayscale(1);
+    opacity: 0.3;
+    transition: filter 0.45s, opacity 0.45s, top 0.45s, left 0.45s;
+}
+
+.img3-third::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1); /* White with 50% opacity */
+    z-index: 1; /* Place the overlay behind the content */
+  }
+
+/* Position 2 */
+.img1-third {
+    top: -314px;
+    left: 315px;
+    z-index: 2;
+    position: absolute;
+    filter: grayscale(1);
+    opacity: 0.3;
+    transition: filter 0.45s, opacity 0.45s, top 0.45s, left 0.45s;
+}
+
+.img1-third::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1); /* White with 50% opacity */
+    z-index: 1; /* Place the overlay behind the content */
+  }
+
+.img2-first {
+    position: absolute;
+    top: -85px;
+    left: 75px;
+    z-index: 5;
+    transition: filter 0.45s, opacity 0.45s, top 0.45s, left 0.45s;
+}
+
+.img3-second {
+    position: absolute;
+    top: 5px;
+    left: 237px;
+    z-index: 4;
+    filter: grayscale(1);
+    opacity: 0.3;
+    transition: filter 0.45s, opacity 0.45s, top 0.45s, left 0.45s;
+}
+
+.img3-second::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1); /* White with 50% opacity */
+    z-index: 3; /* Place the overlay behind the content */
+  }
+
+/* Position 3 */
+.img1-second {
+    top: -109px;
+    left: 199px;
+    z-index: 4;
+    position: absolute;
+    filter: grayscale(1);
+    opacity: 0.3;
+    transition: filter 0.45s, opacity 0.45s, top 0.45s, left 0.45s;
+}
+
+.img1-second::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1); /* White with 50% opacity */
+    z-index: 3; /* Place the overlay behind the content */
+  }
+
+.img2-third {
+    position: absolute;
+    top: -260px;
+    left: 310px;
+    z-index: 2;
+    filter: grayscale(1);
+    opacity: 0.3;
+    transition: filter 0.45s, opacity 0.45s, top 0.45s, left 0.45s;
+}
+
+.img2-third::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1); /* White with 50% opacity */
+    z-index: 1; /* Place the overlay behind the content */
+  }
+
+.img3-first {
+    position: absolute;
+    top: -175px;
+    left: 15px;
+    z-index: 5;
+    transition: filter 0.45s, opacity 0.45s, top 0.45s, left 0.45s;
+}

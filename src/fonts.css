@@ -1,0 +1,26 @@
+/* Note from the editor: I couldn't torrent the font-weight: 500/semibold version */
+/* Which is the reason the Subheading "Lorem Ipsum Dolor" is the wrong font (it's Arial semibold) */
+
+@font-face {
+  font-family: "TT Norms";
+  font-weight: 800;
+  src: url("fonts/ttNorms/TTNorms-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TT Norms";
+  font-weight: 700;
+  src: url("fonts/ttNorms/TTNorms-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TT Norms";
+  font-weight: 600;
+  src: url("fonts/ttNorms/TTNorms-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TT Norms";
+  font-weight: 400;
+  src: url("fonts/ttNorms/TTNorms-Regular.otf") format("opentype");
+}

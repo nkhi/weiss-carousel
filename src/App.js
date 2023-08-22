@@ -174,7 +174,11 @@ function App() {
             return (
               <picture>
                 <source srcSet={numToImg[x]} media="(orientation: portrait)" />
-                <img src={numToImg[x]} alt="" class={activeImageClasses[x]} />
+                <img src={numToImg[x]} alt="" class={activeImageClasses[x]} 
+                onClick={() => {
+                  setActiveImage(x);
+                  setActiveImageClasses(numToNumInPrimaryPositionMap[x]);
+                }}/>
               </picture>
             );
           })}
